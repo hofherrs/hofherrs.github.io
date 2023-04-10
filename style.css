@@ -4,13 +4,13 @@
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
 html {
-    font-size: 62.5%;
+    font-size: 82.5%;
   }
   body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: bradley hand, cursive;
     color: #FFFFFF;
   }
   
@@ -33,7 +33,10 @@ html {
   /**
    * Headings
    */
-  h1,
+  h1 {
+    color:#2c5a32;
+    text-align: center;
+  },
   h2,
   h3,
   h4,
@@ -57,9 +60,6 @@ html {
    */
   p {
     margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
-  }
-  p + p {
-  
   }
   
   /**
@@ -101,9 +101,9 @@ html {
     margin:25px auto;
   }
   header, #content, footer { 
-    background: rgba(111, 141, 117, 0.8); 
+    background: rgba(98, 146, 107, 0.692); 
     padding:25px;
-    color:#FFFFFF; 
+    color:#000000; 
   }
   
   /* Menu Links */
@@ -112,14 +112,14 @@ html {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     list-style: none;
   }
   ul.main-menu li a {
     margin-right:20px;
     font-size:2.0rem;
     border-bottom: solid transparent 3px;
-    color:#e7f1e8;
+    color:#000000;
   }
   ul.main-menu li a:hover {
     color:#FFFFFF;
@@ -135,4 +135,9 @@ html {
   }
   .show {
     display:block;
+  }
+
+  footer {
+    font-size: 50%;
+    text-align: right;
   }
