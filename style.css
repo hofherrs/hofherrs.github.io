@@ -10,7 +10,7 @@ html {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: bradley hand, cursive;
+    font-family: Raleway;
     color: #FFFFFF;
   }
   
@@ -20,7 +20,7 @@ html {
   a {
     font-weight: normal;
     text-decoration: none; 
-    color:#EF6D3D;
+    color:#ca4c1e;
   }
   a:focus {
     outline: thin dotted;
