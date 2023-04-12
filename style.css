@@ -91,9 +91,8 @@ html {
    */
   
   /* Full size background image */
-  html, #container, .inner { background-color:transparent;}
-  html {
-    background:url(background.jpg) center center no-repeat fixed;
+  html{
+    background: url(background.jpg) center center no-repeat fixed;
     background-size:cover;
   }
   body {
@@ -103,7 +102,7 @@ html {
   header, #content, footer { 
     background: rgba(98, 146, 107, 0.692); 
     padding:25px;
-    color:#000000; 
+    color:#000000;
   }
   
   /* Menu Links */
